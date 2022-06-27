@@ -1,3 +1,4 @@
 import './styles/main.css';
+import displayMovies from './modules/display.js';
 
-console.log(123);
+displayMovies();
