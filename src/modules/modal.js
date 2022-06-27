@@ -1,11 +1,11 @@
 const modal = async function () {
-    const requestmovies = await fetch('https://api.tvmaze.com/shows');
-    const requestedMovies = await requestmovies.json();
-    requestedMovies.forEach((movieData) => {
-      const showModalBtn = document.querySelectorAll(`[id=btn-${movieData.id}]`);
-      showModalBtn.forEach((eachmodalbtn) => {
-        eachmodalbtn.addEventListener('click', async () => {
-          document.getElementById('show-popup').innerHTML = `
+  const requestmovies = await fetch('https://api.tvmaze.com/shows');
+  const requestedMovies = await requestmovies.json();
+  requestedMovies.forEach((movieData) => {
+    const showModalBtn = document.querySelectorAll(`[id=btn-${movieData.id}]`);
+    showModalBtn.forEach((eachmodalbtn) => {
+      eachmodalbtn.addEventListener('click', async () => {
+        document.getElementById('show-popup').innerHTML = `
   
   <div class="modal">
   <div>
@@ -42,15 +42,15 @@ const modal = async function () {
           
           
           `;
-        });
       });
     });
-  
-    document.getElementById('show-popup').addEventListener('click', (e) => {
-      if (e.target.classList.contains('close')) {
-        document.getElementById('show-popup').innerHTML = ' ';
-      }
-    });
-  };
-  
-  export default modal;
+  });
+
+  document.getElementById('show-popup').addEventListener('click', (e) => {
+    if (e.target.classList.contains('close')) {
+      document.getElementById('show-popup').innerHTML = ' ';
+    }
+  });
+};
+
+export default modal;
