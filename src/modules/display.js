@@ -1,3 +1,4 @@
+
 const displayMovies = async () => {
   const request = await fetch('https://api.tvmaze.com/shows');
   const requestmovies = await request.json();
@@ -8,3 +9,4 @@ const displayMovies = async () => {
   );
 };
 export default displayMovies;
+
