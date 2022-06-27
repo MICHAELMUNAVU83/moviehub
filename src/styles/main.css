@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Merriweather:ital,wght@1,700&display=swap');
-
+footer{
+  background-color: blue;
+  
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  
+}
 #movie-content {
   display: flex;
   flex-wrap: wrap;

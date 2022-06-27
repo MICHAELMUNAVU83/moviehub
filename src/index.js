@@ -1,4 +1,6 @@
 import './styles/main.css';
-import displayMovies from './modules/display.js';
+import displayData from './modules/display.js';
+import modal from './modules/modal.js';
 
-displayMovies();
+displayData();
+modal();
