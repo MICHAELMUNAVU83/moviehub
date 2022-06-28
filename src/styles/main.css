@@ -1,10 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Merriweather:ital,wght@1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@200;300&family=Josefin+Sans:wght@100&family=Kanit:ital,wght@1,300;1,400&family=Kdam+Thmor+Pro&family=Roboto+Mono:wght@100&display=swap");
 
+header h3 {
+  display: flex;
+  justify-content: center;
+  font-family: "Kanit", sans-serif;
+  font-size: 20px;
+}
 footer {
   background-color: blue;
   bottom: 0;
   position: fixed;
   width: 100%;
+}
+
+footer h3 {
+  display: flex;
+  justify-content: center;
+  color: white;
+
+}
+footer h3 a {
+  color: white;
+  text-decoration: none;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 #movie-content {
@@ -18,6 +37,7 @@ footer {
 }
 
 .each-movie {
+  font-family: "Crete Round", serif;
   box-shadow: 10px 5px 5px 0 blue;
   -webkit-box-shadow: 10px 5px 5px 0 blue;
   -moz-box-shadow: 10px 5px 5px 0 blue;
@@ -72,11 +92,13 @@ footer {
 }
 
 .modal {
+  font-family: "Crete Round", serif;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  background-color: pink;
+  background-color: white;
   border-radius: 30px;
+  top: 0;
   position: fixed;
   height: 100%;
   -webkit-border-radius: 30px;
@@ -111,14 +133,22 @@ footer {
 
 .submit {
   margin-top: 3px;
+  font-family: 'Crete Round', serif;
   border: none;
+  background-color: blue;
+  color: white;
   width: 20%;
   height: 30px;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  margin-top: 20px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.submit:hover {
+  background-color:pink;
+  color:black;
 }
 
 input {
@@ -126,6 +156,9 @@ input {
   height: 30px;
   border: none;
   width: 30%;
+  box-shadow: 5px 5px 5px 0px  blue;
+  -webkit-box-shadow: 5px 5px 5px 0px  blue;
+  -moz-box-shadow: 5px 5px 5px 0px  blue;
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
