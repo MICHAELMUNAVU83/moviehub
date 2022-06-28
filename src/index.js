@@ -5,7 +5,10 @@ import likesLoad from './modules/likesLoad.js';
 import loadComment from './modules/comment-load.js';
 import displaylikes from './modules/likes.js';
 import addComment from './modules/comment.js'
+import homeCounter from "./modules/home-counter.js"
 
+
+homeCounter()
 displayData();
 likesLoad();
 displaylikes();
