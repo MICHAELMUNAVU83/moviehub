@@ -6,6 +6,37 @@ header h3 {
   font-family: "Kanit", sans-serif;
   font-size: 20px;
 }
+
+.like-count {
+  color: red;
+  margin-right: 40px;
+}
+
+.count-movie {
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.headerh3 {
+  border-radius: 20px;
+  background-color: blue;
+  color: white;
+  width: 50%;
+  margin-left: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.movie-counter {
+  margin-right: 20px;
+}
+
 footer {
   background-color: blue;
   bottom: 0;
@@ -17,8 +48,8 @@ footer h3 {
   display: flex;
   justify-content: center;
   color: white;
-
 }
+
 footer h3 a {
   color: white;
   text-decoration: none;
@@ -76,6 +107,7 @@ footer h3 a {
 }
 
 .close {
+  color: blue;
   position: absolute;
   top: 4%;
   right: 6%;
@@ -132,7 +164,6 @@ footer h3 a {
 }
 
 .submit {
-  margin-top: 3px;
   font-family: 'Crete Round', serif;
   border: none;
   background-color: blue;
@@ -146,19 +177,21 @@ footer h3 a {
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
 }
+
 .submit:hover {
-  background-color:pink;
-  color:black;
+  background-color: pink;
+  color: black;
 }
 
 input {
   outline: none;
+  margin-right: 10px;
   height: 30px;
   border: none;
   width: 30%;
-  box-shadow: 5px 5px 5px 0px  blue;
-  -webkit-box-shadow: 5px 5px 5px 0px  blue;
-  -moz-box-shadow: 5px 5px 5px 0px  blue;
+  box-shadow: 5px 5px 5px 0  blue;
+  -webkit-box-shadow: 5px 5px 5px 0  blue;
+  -moz-box-shadow: 5px 5px 5px 0  blue;
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
