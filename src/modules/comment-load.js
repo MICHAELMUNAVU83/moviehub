@@ -1,4 +1,4 @@
-const loadComment = async function () {
+const loadComment = async ()=> {
   const requestmovies = await fetch('https://api.tvmaze.com/shows');
   const requestedMovies = await requestmovies.json();
 

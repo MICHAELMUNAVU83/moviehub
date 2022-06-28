@@ -1,4 +1,4 @@
-const modal = async function () {
+const modal = async  () => {
   const requestmovies = await fetch('https://api.tvmaze.com/shows');
   const requestedMovies = await requestmovies.json();
   requestedMovies.forEach((movieData) => {
@@ -18,7 +18,7 @@ const modal = async function () {
       <p>Average Rating :${movieData.rating.average}</p>
       <p>Genre :${movieData.genres}</p>
       <p>Summary: ${movieData.summary}</p>
-      <p>WRITE YOUR COMMENT HERE</p>
+      <p><u>WRITE YOUR COMMENT HERE</u></p>
       <input type="text" class="user" placeholder="Enter your name">
       <input type="text" class="comment" placeholder="Enter your comment">
       <div>

@@ -5,8 +5,8 @@ class Movie {
       (this.item_id = item_id);
     }
   }
-  
-  const addComment = async function () {
+
+  const addComment = async  ()=> {
     const requestmovies = await fetch('https://api.tvmaze.com/shows');
     const requestedMovies = await requestmovies.json();
   
@@ -56,7 +56,7 @@ class Movie {
     });
   };
   
-  const addCommentCounter = async function (gotComment) {
+  const addCommentCounter = async  (gotComment) => {
     let commentcounter = 0;
     gotComment.forEach((eachcomment) => {
       commentcounter += 1;
