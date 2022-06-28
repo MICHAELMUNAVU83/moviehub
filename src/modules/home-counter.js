@@ -1,5 +1,5 @@
 
-const counter = async function (requestedMovies) {
+const counter = async (requestedMovies)=> {
     let movieCounter = 0;
     requestedMovies.forEach((movieData) => {
       movieCounter += 1;
@@ -10,7 +10,7 @@ const counter = async function (requestedMovies) {
     
     `;
   };
-  const homeCounter = async function () {
+  const homeCounter = async  () => {
     const requestmovies = await fetch('https://api.tvmaze.com/shows');
     const requestedMovies = await requestmovies.json();
     counter(requestedMovies);
