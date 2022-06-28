@@ -4,9 +4,11 @@ import modal from './modules/modal.js';
 import likesLoad from './modules/likesLoad.js';
 import loadComment from './modules/comment-load.js';
 import displaylikes from './modules/likes.js';
+import addComment from './modules/comment.js'
 
 displayData();
 likesLoad();
 displaylikes();
 modal();
 loadComment();
+addComment();
