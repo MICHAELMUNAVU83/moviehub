@@ -8,12 +8,12 @@ const displayData = async function () {
     newdiv.innerHTML += `
         
 
-     <img id="btn-${movieData.id}" src="${movieData.image.medium}" class ="medium-image">
+     <img src="${movieData.image.medium}" class ="medium-image">
      <p class = "movie-name">${movieData.name}</p>
      <div class="like-content">
      <i class="fa fa-heart delete" id = "like-${movieData.id}" aria-hidden="true"></i><span id="like-content-${movieData.id}">0</span>
      
-     <i class="fa fa-comment"  aria-hidden="true"></i>
+     <i class="fa fa-comment"   id="btn-${movieData.id}" aria-hidden="true"></i>
 
      </div>
 
