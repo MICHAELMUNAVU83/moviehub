@@ -1,56 +1,54 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# MOVIEHUB
 
-> Description the project.
+> Purpose of this project is to display movies from an external API , add likes and comments to each movie
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- JAVASCRIPT
 
-## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+
+[Live Demo Link](https://michaelmunavu83.github.io/moviehub/)
+
+
+
+[Video Presentation](https://drive.google.com/file/d/10t0RKNdy7E3hba3ErG1chlidnxkD9jz7/view?usp=sharing)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+- Copy `https://github.com/MICHAELMUNAVU83/moviehub.git`
+- Get the directory that you want to clone the repository.
+- Open the command prompt in this directory.
+- Type git clone `https://github.com/MICHAELMUNAVU83/moviehub.git`
+- Go to the repository folder in your command prompt `cd  moviehub`
+- Run npm install to install the dev dependencies for linters and node sass.
+- Run npm start to display the project on the website
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Abel Desalegn**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Abel-desu)
+- Twitter: [@twitterhandle](https://twitter.com/abeldesalegn)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abel-desalegn-6486a8232/)
 
-👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Michael Munavu**
+
+- GitHub: [@githubhandle](https://github.com/MICHAELMUNAVU83)
+- Twitter: [@twitterhandle](https://twitter.com/MunavuMichael)
+- LinkedIn: [LinkedIn]( https://www.linkedin.com/in/michael-munavu-78703a218/)
+
 
 ## 🤝 Contributing
 

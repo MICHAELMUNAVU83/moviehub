@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@200;300&family=Josefin+Sans:wght@100&family=Kanit:ital,wght@1,300;1,400&family=Kdam+Thmor+Pro&family=Roboto+Mono:wght@100&display=swap");
+
+.like-count {
+  color: red;
+  margin-right: 40px;
+}
+
+.count-movie {
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.headerh3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  margin-right: 2%;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  color: blue;
+}
+
+.movie-counter {
+  margin-right: 20px;
+}
+
+footer {
+  background-color: blue;
+  bottom: 0;
+  position: fixed;
+  height: 8%;
+  width: 100%;
+}
+
+footer h3 {
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+}
+
+footer h3 a {
+  color: white;
+  text-decoration: none;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+#movie-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.delete {
+  margin-left: 5px;
+}
+
+.each-movie {
+  font-family: "Crete Round", serif;
+  box-shadow: 10px 5px 5px 0 blue;
+  -webkit-box-shadow: 10px 5px 5px 0 blue;
+  -moz-box-shadow: 10px 5px 5px 0 blue;
+  height: 100%;
+  padding-bottom: 10px;
+  margin: 10px;
+  color: white;
+  background-color: black;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.medium-image {
+  border-radius: 30px 30px 0 0;
+  -webkit-border-radius: 30px 30px 0 0;
+  -moz-border-radius: 30px 30px 0 0;
+  -ms-border-radius: 30px 30px 0 0;
+  -o-border-radius: 30px 30px 0 0;
+}
+
+.movie-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.like-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.close {
+  color: blue;
+  position: absolute;
+  top: 4%;
+  right: 6%;
+  outline: none;
+  width: 50px;
+  font-size: 38px;
+  border: none;
+  height: 40px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.modal {
+  font-family: "Crete Round", serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: white;
+  border-radius: 30px;
+  top: 0;
+  position: fixed;
+  height: 100%;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  opacity: 100%;
+}
+
+.original-image {
+  height: 500px;
+  margin-right: 30px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.redbtn {
+  color: red;
+}
+
+.comment-sections {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.comment-section {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.user-span {
+  margin-left: 10px;
+}
+
+.submit {
+  font-family: 'Crete Round', serif;
+  border: none;
+  background-color: blue;
+  color: white;
+  width: 20%;
+  height: 30px;
+  margin-top: 20px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.submit:hover {
+  background-color: pink;
+  color: black;
+}
+
+input {
+  outline: none;
+  margin-right: 10px;
+  height: 30px;
+  border: none;
+  width: 30%;
+  box-shadow: 5px 5px 5px 0  blue;
+  -webkit-box-shadow: 5px 5px 5px 0  blue;
+  -moz-box-shadow: 5px 5px 5px 0  blue;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
