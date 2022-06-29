@@ -12,20 +12,18 @@
   justify-content: center;
 }
 
-/* .headerh3 {
-  border-radius: 20px;
-  background-color: blue;
-  color: white;
-  width: 50%;
-  margin-left: 25%;
+.headerh3 {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-} */
+
+}
+.logo{
+  margin-right: 2%;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  color: blue;
+
+}
+
 
 .movie-counter {
   margin-right: 20px;
@@ -40,7 +38,7 @@ footer {
 
 footer h3 {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   color: white;
 }
 
@@ -148,7 +146,15 @@ footer h3 a {
   color: red;
 }
 
+.comment-sections{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
 .comment-section {
+
   margin-top: 5px;
   margin-bottom: 5px;
 }

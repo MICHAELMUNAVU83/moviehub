@@ -14,7 +14,6 @@ const modal = async  () => {
   </div>
   <div>
       <p>Name :${movieData.name}</p>
-      <p>Language :${movieData.language}</p>
       <p>Average Rating :${movieData.rating.average}</p>
       <p>Genre :${movieData.genres}</p>
       <p>Summary: ${movieData.summary}</p>
