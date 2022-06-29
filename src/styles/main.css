@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@200;300&family=Josefin+Sans:wght@100&family=Kanit:ital,wght@1,300;1,400&family=Kdam+Thmor+Pro&family=Roboto+Mono:wght@100&display=swap");
 
-
 .like-count {
   color: red;
   margin-right: 40px;
@@ -15,15 +14,13 @@
 .headerh3 {
   display: flex;
   flex-direction: row;
-
 }
-.logo{
+
+.logo {
   margin-right: 2%;
   font-family: 'Kdam Thmor Pro', sans-serif;
   color: blue;
-
 }
-
 
 .movie-counter {
   margin-right: 20px;
@@ -33,6 +30,7 @@ footer {
   background-color: blue;
   bottom: 0;
   position: fixed;
+  height: 8%;
   width: 100%;
 }
 
@@ -146,15 +144,13 @@ footer h3 a {
   color: red;
 }
 
-.comment-sections{
+.comment-sections {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-
 }
 
 .comment-section {
-
   margin-top: 5px;
   margin-bottom: 5px;
 }
