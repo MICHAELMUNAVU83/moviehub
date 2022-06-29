@@ -17,7 +17,6 @@ const displaylikes = async  () => {
           },
         );
         const requestedlikes = await requestlikes.text();
-        console.log(requestedlikes);
 
         // Getting from api
 

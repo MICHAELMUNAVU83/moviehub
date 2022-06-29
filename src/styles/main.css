@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@200;300&family=Josefin+Sans:wght@100&family=Kanit:ital,wght@1,300;1,400&family=Kdam+Thmor+Pro&family=Roboto+Mono:wght@100&display=swap");
 
-header h3 {
-  display: flex;
-  justify-content: center;
-  font-family: "Kanit", sans-serif;
-  font-size: 20px;
-}
 
 .like-count {
   color: red;
@@ -18,7 +12,7 @@ header h3 {
   justify-content: center;
 }
 
-.headerh3 {
+/* .headerh3 {
   border-radius: 20px;
   background-color: blue;
   color: white;
@@ -31,7 +25,7 @@ header h3 {
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
-}
+} */
 
 .movie-counter {
   margin-right: 20px;

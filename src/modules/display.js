@@ -1,7 +1,6 @@
 const displayData = async  ()=> {
   const requestmovies = await fetch('https://api.tvmaze.com/shows');
   const requestedMovies = await requestmovies.json();
-  console.log(requestedMovies);
   requestedMovies.forEach((movieData) => {
     const newdiv = document.createElement('div');
     newdiv.classList.add('each-movie');
@@ -11,7 +10,7 @@ const displayData = async  ()=> {
      <img src="${movieData.image.medium}" class ="medium-image">
      <p class = "movie-name">${movieData.name}</p>
      <div class="like-content">
-     <i class="fa fa-heart delete" id = "like-${movieData.id}" aria-hidden="true"></i><span class="like-count" id="like-content-${movieData.id}">0</span>
+     <i class="fa fa-heart delete" id = "like-${movieData.id}" aria-hidden="true"></i><span class="like-count" id="like-content-${movieData.id}"></span>
      
      <i class="fa fa-comment"   id="btn-${movieData.id}" aria-hidden="true"></i>
 
