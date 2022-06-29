@@ -39,10 +39,16 @@ To get a local copy up and running follow these simple example steps.
 👤 **Abel Desalegn**
 
 - GitHub: [@githubhandle](https://github.com/Abel-desu)
+- Twitter: [@twitterhandle](https://twitter.com/abeldesalegn)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abel-desalegn-6486a8232/)
+
 
 👤 **Michael Munavu**
 
 - GitHub: [@githubhandle](https://github.com/MICHAELMUNAVU83)
+- Twitter: [@twitterhandle](https://twitter.com/MunavuMichael)
+- LinkedIn: [LinkedIn]( https://www.linkedin.com/in/michael-munavu-78703a218/)
+
 
 ## 🤝 Contributing
 
