@@ -1,4 +1,5 @@
-const displaylikes = async  () => {
+/* eslint-disable */
+const displaylikes = async () => {
   const requestmovies = await fetch('https://api.tvmaze.com/shows');
   const requestedMovies = await requestmovies.json();
   requestedMovies.forEach((movieData) => {
@@ -16,8 +17,6 @@ const displaylikes = async  () => {
             }),
           },
         );
-        const requestedlikes = await requestlikes.text();
-
         // Getting from api
 
         const gotlikesapi = await fetch(
@@ -41,3 +40,4 @@ const displaylikes = async  () => {
 };
 
 export default displaylikes;
+/* eslint-enable */

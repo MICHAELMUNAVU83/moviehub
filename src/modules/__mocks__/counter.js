@@ -1,6 +1,6 @@
-const counter = async  (requestedMovies) => {
+const counter = async (requestedMovies) => {
   let count = 0;
-  requestedMovies.forEach((movieData) => {
+  requestedMovies.forEach(() => {
     count += 1;
   });
   return count;

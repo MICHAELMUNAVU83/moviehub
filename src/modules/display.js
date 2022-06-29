@@ -1,4 +1,4 @@
-const displayData = async  ()=> {
+const displayData = async () => {
   const requestmovies = await fetch('https://api.tvmaze.com/shows');
   const requestedMovies = await requestmovies.json();
   requestedMovies.forEach((movieData) => {
